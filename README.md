@@ -23,8 +23,6 @@ Load the plugin in bootstrap.php
 
 Provider database server information in database.php:
 
-<?php
-
     class DATABASE_CONFIG {
         public $neo4j = array(
             'datasource' => 'Neo4j.Neo4jSource',
@@ -42,7 +40,6 @@ Provider database server information in database.php:
             'password' => 'password'
         );
     }
-
 
 > <b>Note</b> 
 >
