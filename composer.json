@@ -1,0 +1,29 @@
+{
+    "name": "tlg05/cakephp-neo4j",
+    "description": "Neo4j Datasource for CakePHP",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "neo4j", "datasource"],
+    "homepage": "https://github.com/tlg05/cakephp-neo4j",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ligeng Te",
+            "email": "teligeng123@163.com",
+            "role": "Author"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/tlg05/cakephp-neo4j/issues",
+        "source": "https://github.com/tlg05/cakephp-neo4j"
+    },
+    "require": {
+        "php": ">=5.3.0",
+        "composer/installers": "*"
+    },
+    "require-dev": {
+            "phpunit/phpunit": "3.7.*"
+      },
+    "extra": {
+        "installer-name": "Neo4j"
+    }
+}
